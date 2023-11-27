@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		960DE4672B153594007EC0AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960DE4662B153594007EC0AB /* AppDelegate.swift */; };
+		960DE4692B153594007EC0AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960DE4682B153594007EC0AB /* SceneDelegate.swift */; };
+		960DE46B2B153594007EC0AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960DE46A2B153594007EC0AB /* ViewController.swift */; };
+		960DE46E2B153594007EC0AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960DE46C2B153594007EC0AB /* Main.storyboard */; };
+		960DE4702B153596007EC0AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960DE46F2B153596007EC0AB /* Assets.xcassets */; };
+		960DE4732B153596007EC0AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960DE4712B153596007EC0AB /* LaunchScreen.storyboard */; };
+		960DE47E2B153596007EC0AB /* kabiTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960DE47D2B153596007EC0AB /* kabiTaskTests.swift */; };
+		960DE4882B153596007EC0AB /* kabiTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960DE4872B153596007EC0AB /* kabiTaskUITests.swift */; };
+		960DE48A2B153596007EC0AB /* kabiTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960DE4892B153596007EC0AB /* kabiTaskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		960DE47A2B153596007EC0AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 960DE45B2B153594007EC0AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960DE4622B153594007EC0AB;
+			remoteInfo = kabiTask;
+		};
+		960DE4842B153596007EC0AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 960DE45B2B153594007EC0AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960DE4622B153594007EC0AB;
+			remoteInfo = kabiTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		960DE4632B153594007EC0AB /* kabiTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kabiTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		960DE4662B153594007EC0AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		960DE4682B153594007EC0AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		960DE46A2B153594007EC0AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		960DE46D2B153594007EC0AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		960DE46F2B153596007EC0AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		960DE4722B153596007EC0AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		960DE4742B153596007EC0AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960DE4792B153596007EC0AB /* kabiTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kabiTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		960DE47D2B153596007EC0AB /* kabiTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kabiTaskTests.swift; sourceTree = "<group>"; };
+		960DE4832B153596007EC0AB /* kabiTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kabiTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		960DE4872B153596007EC0AB /* kabiTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kabiTaskUITests.swift; sourceTree = "<group>"; };
+		960DE4892B153596007EC0AB /* kabiTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kabiTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		960DE4602B153594007EC0AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960DE4762B153596007EC0AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960DE4802B153596007EC0AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		960DE45A2B153594007EC0AB = {
+			isa = PBXGroup;
+			children = (
+				960DE4652B153594007EC0AB /* kabiTask */,
+				960DE47C2B153596007EC0AB /* kabiTaskTests */,
+				960DE4862B153596007EC0AB /* kabiTaskUITests */,
+				960DE4642B153594007EC0AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		960DE4642B153594007EC0AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				960DE4632B153594007EC0AB /* kabiTask.app */,
+				960DE4792B153596007EC0AB /* kabiTaskTests.xctest */,
+				960DE4832B153596007EC0AB /* kabiTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		960DE4652B153594007EC0AB /* kabiTask */ = {
+			isa = PBXGroup;
+			children = (
+				960DE4662B153594007EC0AB /* AppDelegate.swift */,
+				960DE4682B153594007EC0AB /* SceneDelegate.swift */,
+				960DE46A2B153594007EC0AB /* ViewController.swift */,
+				960DE46C2B153594007EC0AB /* Main.storyboard */,
+				960DE46F2B153596007EC0AB /* Assets.xcassets */,
+				960DE4712B153596007EC0AB /* LaunchScreen.storyboard */,
+				960DE4742B153596007EC0AB /* Info.plist */,
+			);
+			path = kabiTask;
+			sourceTree = "<group>";
+		};
+		960DE47C2B153596007EC0AB /* kabiTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				960DE47D2B153596007EC0AB /* kabiTaskTests.swift */,
+			);
+			path = kabiTaskTests;
+			sourceTree = "<group>";
+		};
+		960DE4862B153596007EC0AB /* kabiTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				960DE4872B153596007EC0AB /* kabiTaskUITests.swift */,
+				960DE4892B153596007EC0AB /* kabiTaskUITestsLaunchTests.swift */,
+			);
+			path = kabiTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		960DE4622B153594007EC0AB /* kabiTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960DE48D2B153596007EC0AB /* Build configuration list for PBXNativeTarget "kabiTask" */;
+			buildPhases = (
+				960DE45F2B153594007EC0AB /* Sources */,
+				960DE4602B153594007EC0AB /* Frameworks */,
+				960DE4612B153594007EC0AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kabiTask;
+			productName = kabiTask;
+			productReference = 960DE4632B153594007EC0AB /* kabiTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		960DE4782B153596007EC0AB /* kabiTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960DE4902B153596007EC0AB /* Build configuration list for PBXNativeTarget "kabiTaskTests" */;
+			buildPhases = (
+				960DE4752B153596007EC0AB /* Sources */,
+				960DE4762B153596007EC0AB /* Frameworks */,
+				960DE4772B153596007EC0AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960DE47B2B153596007EC0AB /* PBXTargetDependency */,
+			);
+			name = kabiTaskTests;
+			productName = kabiTaskTests;
+			productReference = 960DE4792B153596007EC0AB /* kabiTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		960DE4822B153596007EC0AB /* kabiTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960DE4932B153596007EC0AB /* Build configuration list for PBXNativeTarget "kabiTaskUITests" */;
+			buildPhases = (
+				960DE47F2B153596007EC0AB /* Sources */,
+				960DE4802B153596007EC0AB /* Frameworks */,
+				960DE4812B153596007EC0AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960DE4852B153596007EC0AB /* PBXTargetDependency */,
+			);
+			name = kabiTaskUITests;
+			productName = kabiTaskUITests;
+			productReference = 960DE4832B153596007EC0AB /* kabiTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		960DE45B2B153594007EC0AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					960DE4622B153594007EC0AB = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					960DE4782B153596007EC0AB = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 960DE4622B153594007EC0AB;
+					};
+					960DE4822B153596007EC0AB = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 960DE4622B153594007EC0AB;
+					};
+				};
+			};
+			buildConfigurationList = 960DE45E2B153594007EC0AB /* Build configuration list for PBXProject "kabiTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 960DE45A2B153594007EC0AB;
+			productRefGroup = 960DE4642B153594007EC0AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				960DE4622B153594007EC0AB /* kabiTask */,
+				960DE4782B153596007EC0AB /* kabiTaskTests */,
+				960DE4822B153596007EC0AB /* kabiTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		960DE4612B153594007EC0AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960DE4732B153596007EC0AB /* LaunchScreen.storyboard in Resources */,
+				960DE4702B153596007EC0AB /* Assets.xcassets in Resources */,
+				960DE46E2B153594007EC0AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960DE4772B153596007EC0AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960DE4812B153596007EC0AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		960DE45F2B153594007EC0AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960DE46B2B153594007EC0AB /* ViewController.swift in Sources */,
+				960DE4672B153594007EC0AB /* AppDelegate.swift in Sources */,
+				960DE4692B153594007EC0AB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960DE4752B153596007EC0AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960DE47E2B153596007EC0AB /* kabiTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960DE47F2B153596007EC0AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960DE48A2B153596007EC0AB /* kabiTaskUITestsLaunchTests.swift in Sources */,
+				960DE4882B153596007EC0AB /* kabiTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		960DE47B2B153596007EC0AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 960DE4622B153594007EC0AB /* kabiTask */;
+			targetProxy = 960DE47A2B153596007EC0AB /* PBXContainerItemProxy */;
+		};
+		960DE4852B153596007EC0AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 960DE4622B153594007EC0AB /* kabiTask */;
+			targetProxy = 960DE4842B153596007EC0AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		960DE46C2B153594007EC0AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960DE46D2B153594007EC0AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		960DE4712B153596007EC0AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960DE4722B153596007EC0AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		960DE48B2B153596007EC0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		960DE48C2B153596007EC0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		960DE48E2B153596007EC0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q293AGLJA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kabiTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.essam.kabiTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		960DE48F2B153596007EC0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q293AGLJA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kabiTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.essam.kabiTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		960DE4912B153596007EC0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q293AGLJA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.essam.kabiTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kabiTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kabiTask";
+			};
+			name = Debug;
+		};
+		960DE4922B153596007EC0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q293AGLJA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.essam.kabiTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kabiTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kabiTask";
+			};
+			name = Release;
+		};
+		960DE4942B153596007EC0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q293AGLJA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.essam.kabiTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kabiTask;
+			};
+			name = Debug;
+		};
+		960DE4952B153596007EC0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q293AGLJA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.essam.kabiTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kabiTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		960DE45E2B153594007EC0AB /* Build configuration list for PBXProject "kabiTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960DE48B2B153596007EC0AB /* Debug */,
+				960DE48C2B153596007EC0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960DE48D2B153596007EC0AB /* Build configuration list for PBXNativeTarget "kabiTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960DE48E2B153596007EC0AB /* Debug */,
+				960DE48F2B153596007EC0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960DE4902B153596007EC0AB /* Build configuration list for PBXNativeTarget "kabiTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960DE4912B153596007EC0AB /* Debug */,
+				960DE4922B153596007EC0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960DE4932B153596007EC0AB /* Build configuration list for PBXNativeTarget "kabiTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960DE4942B153596007EC0AB /* Debug */,
+				960DE4952B153596007EC0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 960DE45B2B153594007EC0AB /* Project object */;
+}
