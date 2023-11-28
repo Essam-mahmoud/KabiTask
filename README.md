@@ -25,3 +25,5 @@ You need to run this project just Xcode IDE
 
  # Unit test 
  I make a lot of unit test to cover all the project the percentage of coverage reach to 85%
+
+ you can find screen shots of the app show the validation that I set to the user when updating the post he need to fill all data to process as you will see 
